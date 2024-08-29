@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Images and Backgrounds</title>
+    <link rel="icon" href="Google.jpg" type="image/x-icon">
+
+    <style>
+        table {
+           
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+          td {
+            width: 300px;
+            height: 300px;
+            position: relative;
+            text-align: center;
+            border: 1px solid #9b9a9a;
+            padding: 0;
+            
+             
+        }
+        .inner-image {
+            border: 2px solid white;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            max-width: 50%;
+            max-height: 50%;
+        }
+        .column1 {
+            background-image: url('https://media.istockphoto.com/id/1358961592/photo/follow-the-moonlit-river-to-safety.jpg?s=1024x1024&w=is&k=20&c=qD3tO-qwH-6r0BBtJWp5jn26uNq_o3yi8G9DTyGnZ7g=');
+            
+           
+        }
+        .column2 {
+            background-image: url('https://media.istockphoto.com/id/1358961592/photo/follow-the-moonlit-river-to-safety.jpg?s=1024x1024&w=is&k=20&c=qD3tO-qwH-6r0BBtJWp5jn26uNq_o3yi8G9DTyGnZ7g=');
+        }
+        .column3 {
+            background-image: url('https://media.istockphoto.com/id/1358961592/photo/follow-the-moonlit-river-to-safety.jpg?s=1024x1024&w=is&k=20&c=qD3tO-qwH-6r0BBtJWp5jn26uNq_o3yi8G9DTyGnZ7g=');
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td class="column1">
+                <img src="Google.JPG" alt="Google" class="inner-image">
+            </td>
+            <td class="column2">
+                <img src="Yahoo.jpg" alt="Yahoo" class="inner-image">
+            </td>
+            <td class="column3">
+                <img src="bing1.jpg" alt="Bing" class="inner-image">
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
